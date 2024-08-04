@@ -1,4 +1,4 @@
-package com.eirmax.researcherstory.creativeytabs;
+package com.eirmax.researcherstory.creativetabs;
 
 
 import com.eirmax.researcherstory.ResearcherStory;

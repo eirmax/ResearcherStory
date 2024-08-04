@@ -1,10 +1,8 @@
 package com.eirmax.researcherstory;
 
-import com.eirmax.researcherstory.creativeytabs.ModCreativeTabs;
-import com.eirmax.researcherstory.data.DataGenerators;
+import com.eirmax.researcherstory.creativetabs.ModCreativeTabs;
 import com.eirmax.researcherstory.item.ModItems;
 import com.mojang.logging.LogUtils;
-import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
