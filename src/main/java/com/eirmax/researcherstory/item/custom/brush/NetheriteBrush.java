@@ -32,7 +32,7 @@ import net.minecraft.world.phys.Vec3;
 public class NetheriteBrush extends BrushItem {
     public static final int ANIMATION_DURATION = 10;
     private static final int USE_DURATION = 200;
-    private static final double MAX_BRUSH_DISTANCE = Math.sqrt(ServerGamePacketListenerImpl.MAX_INTERACTION_DISTANCE) - 3.0D;
+    private static final double MAX_BRUSH_DISTANCE = Math.sqrt(ServerGamePacketListenerImpl.MAX_INTERACTION_DISTANCE) - 2.0D;
 
     public NetheriteBrush(Properties p_41383_) {
         super(p_41383_);

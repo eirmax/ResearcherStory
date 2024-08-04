@@ -23,6 +23,7 @@ public class ModCreativeTabs {
                         output.accept(ModItems.GOLD_BRUSH.get());
                         output.accept(ModItems.DIAMOND_BRUSH.get());
                         output.accept(ModItems.NETHERITE_BRUSH.get());
+                        output.accept(ModItems.IMPROVED_FEATHER.get());
 
                     }).build());
 

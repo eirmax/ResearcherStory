@@ -21,10 +21,10 @@ public class ModItemModelProvider extends ItemModelProvider {
     @Override
     protected void registerModels() {
 
-        handheldItem(ModItems.DIAMOND_BRUSH);
-        handheldItem(ModItems.GOLD_BRUSH);
-        handheldItem(ModItems.IRON_BRUSH);
-        handheldItem(ModItems.NETHERITE_BRUSH);
+      //  handheldItem(ModItems.DIAMOND_BRUSH);
+      //  handheldItem(ModItems.GOLD_BRUSH);
+       // handheldItem(ModItems.IRON_BRUSH);
+       // handheldItem(ModItems.NETHERITE_BRUSH);
 
         // simpleItem(ModItems.ALEXANDRITE_HELMET);
         // simpleItem(ModItems.ALEXANDRITE_CHESTPLATE);

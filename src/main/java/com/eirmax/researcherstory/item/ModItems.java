@@ -24,6 +24,9 @@ public class ModItems {
             () -> new DiamondBrush(new Item.Properties().durability(340)));
     public static final RegistryObject<Item> NETHERITE_BRUSH = ITEMS.register("netherite_brush",
             () -> new NetheriteBrush(new Item.Properties().durability(500)));
+    public static final RegistryObject<Item> IMPROVED_FEATHER = ITEMS.register("improved_feather",
+            () -> new Item(new Item.Properties()));
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
