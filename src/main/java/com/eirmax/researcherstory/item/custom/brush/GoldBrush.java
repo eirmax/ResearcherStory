@@ -1,5 +1,6 @@
 package com.eirmax.researcherstory.item.custom.brush;
 
+import net.minecraft.client.renderer.item.ItemProperties;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.core.particles.BlockParticleOption;
@@ -109,6 +110,7 @@ public class GoldBrush extends BrushItem {
             return !p_281111_.isSpectator() && p_281111_.isPickable();
         }, MAX_BRUSH_DISTANCE);
     }
+
 
     public void spawnDustParticles(Level p_278327_, BlockHitResult p_278272_, BlockState p_278235_, Vec3 p_278337_, HumanoidArm p_285071_) {
         double d0 = 3.0D;
